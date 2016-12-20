@@ -1,0 +1,271 @@
+
+body{
+background-color: #eee;
+margin: 0px;
+font-family: 'Raleway', sans-serif;
+}
+
+header{
+  background-image: url("Images/SeasideCliff.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.navbar-lockup{
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgba(255,255,255,0.6);
+  height: 50px;
+  width: 100%;
+  margin: 0px;
+}
+
+#header-logo img{
+  width:50px;
+  height: 50px;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 50%;
+  float: left;
+}
+
+
+#nav-header{
+  float: right;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+#nav-header a{
+color: rgba(0,0,0,0.7);
+text-decoration: none;
+margin-left: 10px;
+font-size: 20px;
+
+}
+
+#nav-header a:hover{
+  color: rgba(255,153,0,0.5);
+}
+
+.title{
+  display: inline-block;
+  margin-top: 200px;
+  margin-left: 300px;
+
+}
+
+h1{
+text-align: center;
+clear: both;
+text-transform: uppercase;
+padding-top: 100px;
+font-size: 72px;
+color: white;
+letter-spacing: 0.05em;
+margin-bottom: 20px;
+}
+
+#title-border{
+border-top: 5px dotted white;
+border-bottom: 5px solid white;
+padding: 0.5em 0.25em;
+display: inline-block;
+}
+
+#kicker{
+text-align: center;
+font-size: 30px;
+color: white;
+letter-spacing: 0.05em;
+margin-bottom: 0px;
+text-transform: uppercase;
+}
+
+.social-media{
+  text-align: center;
+
+}
+
+.social-media img{
+  height: 60px;
+  width: 60px;
+  text-align: center;
+}
+
+
+
+/* ABOUT SECTION */
+section #about{
+background-color: black;
+}
+
+.title-left-lockup{
+float: left;
+font-size: 40px;
+padding: 0px 20px 0px 20px;
+position: relative;
+top: -20px;
+display: inline;
+}
+
+.title-left-lockup h2{
+text-decoration: underline;
+}
+
+#about-left-lockup{
+  padding-right: 100px;
+}
+
+#about-right-lockup{
+margin: auto;
+
+}
+
+#about-right-lockup p{
+  margin: 40px 100px;
+  padding-left: 100px;
+}
+
+/* Skills */
+#skills-heading{
+font-size: 30px;
+text-align: center;
+}
+
+.skills-lockup{
+max-width: 540px;
+margin: 100px auto;
+color: #999;
+clear: both;
+}
+
+
+.skills-unit{
+  width: 270px;
+  float: left;
+  text-align: center;
+}
+.skill-label{
+text-decoration: underline;
+}
+
+.skill-icon{
+margin: 2px 0px 30px;
+font-size: 0px;
+}
+
+.skill-icon span{
+  background-color: brown;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.skill-icon span:after{
+  content: '';
+  display: block;
+  height: 10px;
+  width: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 2px;
+}
+
+
+.skill-6 span:nth-child(n+7){
+  background-color: #999
+}
+.skill-7 span:nth-child(n+8){
+  background-color: #999
+}
+.skill-8 span:nth-child(n+9){
+  background-color: #999
+}
+.skill-9 span:nth-child(n+10){
+  background-color: #999
+}
+/* PORTFOLIO */
+#portfolio{
+  display: inline-block;
+  width: 100%;
+  height: 1000px;
+  text-align: center;
+}
+
+
+.portfolio-pictures-lockup{
+  width: 100%;
+  height: 800px;
+  display: inline-block;
+}
+
+
+
+.portfolio-display-image img{
+  width: 500px;
+  height: 300px;
+  margin: 20px 20px;
+}
+
+.portfolio-display-image-float img{
+}
+
+
+/* CONTACT */
+#contact{
+  height: 500px;
+}
+
+.contact-details{
+  clear: both;
+  text-align: center;
+  font-size: 50px;
+}
+
+
+
+
+
+/* Footer */
+
+footer{
+  background-image: url(Images/Cliffs.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+#footer-lockup{
+padding: 20px 0px 0px 20px;
+
+}
+
+#nav-footer{
+text-align: center;
+}
+
+#nav-footer a{
+color: white;
+margin-left: auto;
+text-decoration: none;
+font-size: 20px;
+margin-left: 10px;
+}
+
+#nav-footer a:hover{
+  color: rgba(255,153,0,1);
+}
+
+#copyright{
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  margin-bottom: 0px;
+}
