@@ -5,6 +5,8 @@ margin: 0px;
 font-family: 'Raleway', sans-serif;
 }
 
+
+
 header{
   background-image: url("Images/SeasideCliff.jpg");
   background-position: center center;
@@ -25,7 +27,13 @@ header{
 #header-logo img{
   width:50px;
   height: 50px;
-  background-color: rgba(255,255,255,0.5);
+  border-radius: 50%;
+  float: left;
+}
+
+#header-svg{
+  width:50px;
+  height: 50px;
   border-radius: 50%;
   float: left;
 }
@@ -79,20 +87,41 @@ text-align: center;
 font-size: 30px;
 color: white;
 letter-spacing: 0.05em;
+display: block;
 margin-bottom: 0px;
 text-transform: uppercase;
+
 }
+
 
 .social-media{
+  width: 500px;
+  margin: 0 auto;
   text-align: center;
+}
+
+.media{
+  height: 50px;
+  width: 50px;
+  fill: rgba(0, 172, 237, 0.5);
+  margin-left: 20px;
+}
+
+#facebookimg:hover{
+  fill: rgba(0, 172, 237, 1);
+}
+
+ #twitterimg:hover{
+fill: rgba(0, 172, 237, 1);
 
 }
 
-.social-media img{
-  height: 60px;
-  width: 60px;
-  text-align: center;
+#linkedinimg:hover{
+fill: rgba(0, 172, 237, 1);
+
 }
+
+
 
 
 
@@ -176,7 +205,7 @@ font-size: 0px;
 }
 
 
-.skill-6 span:nth-child(n+7){
+.skill-6 span:nth-child(n+6){
   background-color: #999
 }
 .skill-7 span:nth-child(n+8){
