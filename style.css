@@ -1,192 +1,213 @@
 
-body{
-background-color: #eee;
-margin: 0px;
-font-family: 'Raleway', sans-serif;
+body  {
+  background-color: #eee;
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+  position: relative;
 }
 
 
-
-header{
+header  {
   background-image: url("Images/SeasideCliff.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 600px;
+  height: 100vh;
 }
 
-.navbar-lockup{
-  margin-left: 10px;
-  margin-right: 10px;
-  background-color: rgba(255,255,255,0.6);
-  height: 50px;
+.navbar-lockup  {
+  background-color: rgba(0,0,0,0.4);
+  height: 120px;
   width: 100%;
   margin: 0px;
+  text-align: center;
 }
 
-#header-logo img{
-  width:50px;
-  height: 50px;
-  border-radius: 50%;
-  float: left;
+.ss-icon {
+  height: 120px;
+  width: 120px;
+  margin-left: 10px;
 }
 
-#header-svg{
-  width:50px;
-  height: 50px;
-  border-radius: 50%;
-  float: left;
-}
-
-
-#nav-header{
-  float: right;
-  margin-top: 15px;
+#nav-header {
+  padding: 12px;
   margin-right: 20px;
 }
 
-#nav-header a{
-color: rgba(0,0,0,0.7);
+#nav-header a {
+color: white;
 text-decoration: none;
 margin-left: 10px;
 font-size: 20px;
 
 }
 
-#nav-header a:hover{
-  color: rgba(255,153,0,0.5);
+#nav-header a:hover {
+  color: rgba(0, 172, 237, 1);
 }
 
-.title{
+.header-title h1 {
+  text-align: center;
+  clear: both;
+  text-transform: uppercase;
+  padding-top: 200px;
+  font-size: 72px;
+  color: white;
+  letter-spacing: 0.05em;
+  margin-bottom: 20px;
+}
+
+.title  {
   display: inline-block;
   margin-top: 200px;
   margin-left: 300px;
-
 }
 
-h1{
-text-align: center;
-clear: both;
-text-transform: uppercase;
-padding-top: 100px;
-font-size: 72px;
-color: white;
-letter-spacing: 0.05em;
-margin-bottom: 20px;
+#header-title-left {
+  margin-right: 250px;
 }
 
-#title-border{
+#header-title-right {
+  margin-left: 250px;
+}
+
+#title-border {
 border-top: 5px dotted white;
 border-bottom: 5px solid white;
 padding: 0.5em 0.25em;
 display: inline-block;
 }
 
-#kicker{
-text-align: center;
-font-size: 30px;
-color: white;
-letter-spacing: 0.05em;
-display: block;
-margin-bottom: 0px;
-text-transform: uppercase;
-
+#kicker {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  letter-spacing: 0.05em;
+  display: block;
+  margin-bottom: 40px;
+  text-transform: uppercase;
 }
 
+@media (max-width: 700px) {
+  h1 {
+    font-size: 40px;
+  }
+  #title-left {
+    margin-right: 0px;
+  }
+  #title-right {
+    margin-left: 0px;
+  }
+}
 
-.social-media{
+.social-media-icons {
   width: 500px;
   margin: 0 auto;
   text-align: center;
 }
 
-.media{
-  height: 50px;
-  width: 50px;
-  fill: rgba(0, 172, 237, 0.5);
+.media-icon {
+  height: 60px;
+  width: 60px;
+  fill: rgba(255, 255, 255, 1);
   margin-left: 20px;
+  background-color: rgba(0,0,0,0.7);
+  padding: 10px;
+  border-radius: 50%;
+  transition: 0.2s ease-in-out;
 }
 
-#facebookimg:hover{
+.media-icon:hover  {
   fill: rgba(0, 172, 237, 1);
+  transform: scale(1.2);
 }
-
- #twitterimg:hover{
-fill: rgba(0, 172, 237, 1);
-
-}
-
-#linkedinimg:hover{
-fill: rgba(0, 172, 237, 1);
-
-}
-
-
-
-
 
 /* ABOUT SECTION */
-section #about{
-background-color: black;
+section #about  {
 }
 
-.title-left-lockup{
-float: left;
-font-size: 40px;
-padding: 0px 20px 0px 20px;
-position: relative;
-top: -20px;
-display: inline;
+.title-left-lockup  {
+  float: left;
+  font-size: 40px;
+  padding: 0px 20px 0px 20px;
+  display: inline;
+  height: 200px;
+
 }
 
-.title-left-lockup h2{
-text-decoration: underline;
+.title-left-lockup h2 {
+  font-size: 40px;
 }
 
-#about-left-lockup{
+#about-left-lockup {
   padding-right: 100px;
 }
 
-#about-right-lockup{
-margin: auto;
-
+#about-right-lockup {
 }
 
-#about-right-lockup p{
-  margin: 40px 100px;
-  padding-left: 100px;
+#about-right-lockup p {
+  margin: 20px 100px;
+  text-align: center;
+  font-size: 15px;
 }
 
 /* Skills */
-#skills-heading{
-font-size: 30px;
-text-align: center;
+#skills-title-lockup {
+  text-align: center;
+  font-size: 40px;
+  margin: 0px 400px 0px 400px;
+  position: relative;
+  display: block;
+  clear: both;
 }
 
-.skills-lockup{
-max-width: 540px;
-margin: 100px auto;
-color: #999;
-clear: both;
+#skills-left-lockup {
+  padding-right: 100px;
+}
+
+#skills-right-lockup {
+
+}
+
+#skills-right-lockup p {
+  margin: 20px 100px;
+  text-align: center;
+  font-size: 15px;
+}
+
+#skills-description {
+  text-align: center;
+  margin: 0px 25px;
+  font-size: 15px;
+  display: block;
 }
 
 
-.skills-unit{
+.skills-lockup  {
+  max-width: 540px;
+  margin: 100px auto;
+  color: #999;
+  clear: both;
+}
+
+
+.skills-unit  {
   width: 270px;
   float: left;
   text-align: center;
 }
 .skill-label{
-text-decoration: underline;
+  text-decoration: underline;
 }
 
 .skill-icon{
-margin: 2px 0px 30px;
-font-size: 0px;
+  margin: 2px 0px 30px;
+  font-size: 0px;
 }
 
 .skill-icon span{
-  background-color: brown;
+  background-color: rgba(0, 172, 237, 1);
   height: 14px;
   width: 14px;
   border-radius: 50%;
@@ -206,7 +227,7 @@ font-size: 0px;
 
 
 .skill-6 span:nth-child(n+6){
-  background-color: #999
+  background-color: black;
 }
 .skill-7 span:nth-child(n+8){
   background-color: #999
@@ -216,6 +237,23 @@ font-size: 0px;
 }
 .skill-9 span:nth-child(n+10){
   background-color: #999
+}
+
+#language-icon-lockup {
+  text-align: center;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.language-icon {
+  height: 50px;
+  width: 50px;
+  transition: 0.2s ease-in-out;
+
+}
+
+.language-icon:hover {
+  transform: scale(1.2);
 }
 /* PORTFOLIO */
 #portfolio{
@@ -247,6 +285,9 @@ font-size: 0px;
 /* CONTACT */
 #contact{
   height: 500px;
+  display: block;
+  clear: both;
+  margin-top: 200px;
 }
 
 .contact-details{
@@ -255,14 +296,10 @@ font-size: 0px;
   font-size: 50px;
 }
 
-
-
-
-
 /* Footer */
 
 footer{
-  background-image: url(Images/Cliffs.jpg);
+  background-image: url(Images/SeasideCliff.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -276,11 +313,11 @@ padding: 20px 0px 0px 20px;
 
 }
 
-#nav-footer{
+#navigation-footer{
 text-align: center;
 }
 
-#nav-footer a{
+#navigation-footer a{
 color: white;
 margin-left: auto;
 text-decoration: none;
@@ -288,8 +325,8 @@ font-size: 20px;
 margin-left: 10px;
 }
 
-#nav-footer a:hover{
-  color: rgba(255,153,0,1);
+#navigation-footer a:hover{
+  color: rgba(0, 172, 237, 1);
 }
 
 #copyright{
