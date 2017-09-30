@@ -127,11 +127,10 @@ section #about  {
 }
 
 .title-left-lockup  {
-  float: left;
+  text-align: center;
   font-size: 40px;
   padding: 0px 20px 0px 20px;
   display: inline;
-  height: 200px;
 
 }
 
@@ -187,7 +186,7 @@ section #about  {
 .skills-lockup  {
   max-width: 540px;
   margin: 100px auto;
-  color: #999;
+  color: rgba(0,0,0,0.7);
   clear: both;
 }
 
@@ -283,7 +282,7 @@ section #about  {
 
 
 /* CONTACT */
-#contact{
+#contact {
   height: 500px;
   display: block;
   clear: both;
