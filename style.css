@@ -122,6 +122,11 @@ display: inline-block;
   transform: scale(1.2);
 }
 
+#body-background {
+  background-color: rgba(0, 172, 237, 0.05);
+  margin: 20px;
+}
+
 /* ABOUT SECTION */
 section #about  {
 }
@@ -247,12 +252,13 @@ section #about  {
 .language-icon {
   height: 50px;
   width: 50px;
-  transition: 0.2s ease-in-out;
+  transition: 0.7s ease-in-out;
 
 }
 
 .language-icon:hover {
-  transform: scale(1.2);
+  transform: scale(1.2) rotate(360deg);
+
 }
 /* PORTFOLIO */
 #portfolio{
