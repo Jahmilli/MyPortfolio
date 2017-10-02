@@ -7,7 +7,7 @@ body  {
 }
 
 
-header  {
+header {
   background-image: url("Images/SeasideCliff.jpg");
   background-position: center center;
   background-size: cover;
@@ -15,7 +15,7 @@ header  {
   height: 100vh;
 }
 
-.navbar-lockup  {
+.navbar-lockup {
   background-color: rgba(0,0,0,0.4);
   height: 120px;
   width: 100%;
@@ -31,7 +31,6 @@ header  {
 
 #nav-header {
   padding: 12px;
-  margin-right: 20px;
 }
 
 #nav-header a {
@@ -86,18 +85,6 @@ display: inline-block;
   display: block;
   margin-bottom: 40px;
   text-transform: uppercase;
-}
-
-@media (max-width: 700px) {
-  h1 {
-    font-size: 40px;
-  }
-  #title-left {
-    margin-right: 0px;
-  }
-  #title-right {
-    margin-left: 0px;
-  }
 }
 
 .social-media-icons {
@@ -261,7 +248,7 @@ section #about  {
 
 }
 /* PORTFOLIO */
-#portfolio{
+#portfolio  {
   display: inline-block;
   width: 100%;
   height: 1000px;
@@ -269,7 +256,7 @@ section #about  {
 }
 
 
-.portfolio-pictures-lockup{
+.portfolio-pictures-lockup  {
   width: 100%;
   height: 800px;
   display: inline-block;
@@ -277,13 +264,13 @@ section #about  {
 
 
 
-.portfolio-display-image img{
+.portfolio-display-image img  {
   width: 500px;
   height: 300px;
   margin: 20px 20px;
 }
 
-.portfolio-display-image-float img{
+.portfolio-display-image-float img  {
 }
 
 
@@ -295,7 +282,7 @@ section #about  {
   margin-top: 200px;
 }
 
-.contact-details{
+.contact-details  {
   clear: both;
   text-align: center;
   font-size: 50px;
@@ -303,7 +290,7 @@ section #about  {
 
 /* Footer */
 
-footer{
+footer  {
   background-image: url(Images/SeasideCliff.jpg);
   background-position: center center;
   background-size: cover;
@@ -313,16 +300,16 @@ footer{
   margin-bottom: 0px;
 }
 
-#footer-lockup{
+#footer-lockup  {
 padding: 20px 0px 0px 20px;
 
 }
 
-#navigation-footer{
+#navigation-footer  {
 text-align: center;
 }
 
-#navigation-footer a{
+#navigation-footer a  {
 color: white;
 margin-left: auto;
 text-decoration: none;
@@ -330,7 +317,7 @@ font-size: 20px;
 margin-left: 10px;
 }
 
-#navigation-footer a:hover{
+#navigation-footer a:hover  {
   color: rgba(0, 172, 237, 1);
 }
 
@@ -339,4 +326,143 @@ margin-left: 10px;
   color: white;
   text-align: center;
   margin-bottom: 0px;
+}
+
+@media screen and (max-width: 500px) {
+
+  .navbar-lockup  {
+    background-color: rgba(0,0,0,0.4);
+    height: 120px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .ss-icon {
+    height: 120px;
+    width: 120px;
+  }
+  #nav-header {
+    padding: 12px;
+    margin-right: 0px;
+  }
+
+  #nav-header a {
+    font-size: 15px;
+  }
+  .header-title h1 {
+    font-size: 40px;
+  }
+
+  #kicker {
+    font-size: 15px;
+  }
+
+  #header-title-left {
+    margin-right: 0px;
+  }
+
+  #header-title-right {
+    margin-left: 0px;
+  }
+
+  .social-media-icons {
+    width: 500px;
+    text-align: center;
+    margin-right: 0px;
+    display: inline-block;
+
+  }
+
+  .media-icon {
+    height: 60px;
+    width: 60px;
+    fill: rgba(255, 255, 255, 1);
+    margin-left: 10px;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 50%;
+    transition: 0.2s ease-in-out;
+    text-align: center;
+    display: inline-block;
+  }
+
+  #about-right-lockup p {
+    margin: 50px;
+  }
+
+  .portfolio-display-image img{
+    width: 300px;
+    height: 150px;
+    margin: 20px 20px;
+  }
+
+  .skills-lockup  {
+    max-width: 540px;
+    margin: 100px 0px;
+    color: rgba(0,0,0,0.7);
+    clear: both;
+  }
+
+
+  .skills-unit  {
+    width: 270px;
+    float: none;
+    margin: 0px auto;
+    text-align: center;
+  }
+
+  #contact {
+    height: 500px;
+    display: block;
+    clear: both;
+  }
+
+  .contact-details  {
+    clear: both;
+    text-align: center;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 397px) {
+  .navbar-lockup  {
+    background-color: rgba(0,0,0,0.4);
+    height: 120px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .ss-icon {
+    height: 100px;
+    width: 100px;
+  }
+  #nav-header {
+    padding: 12px;
+  }
+
+  #nav-header a {
+    font-size: 15px;
+  }
+
+  .social-media-icons {
+    display: inline;
+    margin: auto;
+    text-align: center;
+  }
+
+  .media-icon {
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    fill: rgba(255, 255, 255, 1);
+    background-color: rgba(0,0,0,0.7);
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.2s ease-in-out;
+  }
+
+  .media-icon a {
+
+  }
 }
