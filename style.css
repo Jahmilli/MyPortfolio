@@ -34,11 +34,10 @@ header {
 }
 
 #nav-header a {
-color: white;
-text-decoration: none;
-margin-left: 10px;
-font-size: 20px;
-
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 20px;
 }
 
 #nav-header a:hover {
@@ -71,10 +70,10 @@ font-size: 20px;
 }
 
 #title-border {
-border-top: 5px dotted white;
-border-bottom: 5px solid white;
-padding: 0.5em 0.25em;
-display: inline-block;
+  border-top: 5px dotted white;
+  border-bottom: 5px solid white;
+  padding: 0.5em 0.25em;
+  display: inline-block;
 }
 
 #kicker {
@@ -89,19 +88,21 @@ display: inline-block;
 
 .social-media-icons {
   width: 500px;
-  margin: 0 auto;
   text-align: center;
+  display: block;
+  margin: auto;
 }
 
 .media-icon {
   height: 60px;
   width: 60px;
   fill: rgba(255, 255, 255, 1);
-  margin-left: 20px;
   background-color: rgba(0,0,0,0.7);
   padding: 10px;
   border-radius: 50%;
   transition: 0.2s ease-in-out;
+  margin: 0 10px;
+
 }
 
 .media-icon:hover  {
@@ -132,9 +133,6 @@ section #about  {
 
 #about-left-lockup {
   padding-right: 100px;
-}
-
-#about-right-lockup {
 }
 
 #about-right-lockup p {
@@ -175,7 +173,7 @@ section #about  {
 }
 
 
-.skills-lockup  {
+.skills-lockup {
   max-width: 540px;
   margin: 100px auto;
   color: rgba(0,0,0,0.7);
@@ -183,21 +181,21 @@ section #about  {
 }
 
 
-.skills-unit  {
+.skills-unit {
   width: 270px;
   float: left;
   text-align: center;
 }
-.skill-label{
+.skill-label {
   text-decoration: underline;
 }
 
-.skill-icon{
+.skill-icon {
   margin: 2px 0px 30px;
   font-size: 0px;
 }
 
-.skill-icon span{
+.skill-icon span {
   background-color: rgba(0, 172, 237, 1);
   height: 14px;
   width: 14px;
@@ -217,7 +215,7 @@ section #about  {
 }
 
 
-.skill-6 span:nth-child(n+6){
+.skill-6 span:nth-child(n+6) {
   background-color: black;
 }
 .skill-7 span:nth-child(n+8){
@@ -240,7 +238,6 @@ section #about  {
   height: 50px;
   width: 50px;
   transition: 0.7s ease-in-out;
-
 }
 
 .language-icon:hover {
@@ -248,29 +245,47 @@ section #about  {
 
 }
 /* PORTFOLIO */
-#portfolio  {
+#portfolio {
   display: inline-block;
   width: 100%;
   height: 1000px;
   text-align: center;
 }
 
-
-.portfolio-pictures-lockup  {
+.portfolio-pictures-lockup {
   width: 100%;
   height: 800px;
-  display: inline-block;
 }
 
-
-
-.portfolio-display-image img  {
+.portfolio-display-image {
   width: 500px;
   height: 300px;
   margin: 20px 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
 }
 
-.portfolio-display-image-float img  {
+#BushFireAppImg {
+  background-image: url("./Images/BushfireApp.png");
+}
+
+#PAASImg {
+  background-image: url("./Images/PAAS_IMG.png");
+}
+
+#CanoeImg {
+  background-image: url("./Images/Canoe.jpg");
+}
+
+#PortfolioImg {
+  background-image: url("./Images/Portfolio_IMG.png");
+}
+
+#BushFireAppImg {
+  background-image: url("Images/BushfireApp.png");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 
@@ -366,34 +381,27 @@ margin-left: 10px;
     margin-left: 0px;
   }
 
-  .social-media-icons {
-    width: 500px;
-    text-align: center;
-    margin-right: 0px;
-    display: inline-block;
-
-  }
-
   .media-icon {
     height: 60px;
     width: 60px;
     fill: rgba(255, 255, 255, 1);
-    margin-left: 10px;
     background-color: rgba(0,0,0,0.7);
     border-radius: 50%;
     transition: 0.2s ease-in-out;
-    text-align: center;
-    display: inline-block;
   }
 
   #about-right-lockup p {
-    margin: 50px;
+    margin: 0px 10px;
   }
 
   .portfolio-display-image img{
     width: 300px;
     height: 150px;
     margin: 20px 20px;
+  }
+
+  #skills-right-lockup p {
+    margin: 0px 10px;
   }
 
   .skills-lockup  {
@@ -427,8 +435,6 @@ margin-left: 10px;
 @media screen and (max-width: 397px) {
   .navbar-lockup  {
     background-color: rgba(0,0,0,0.4);
-    height: 120px;
-    width: 100%;
     margin: 0px;
     text-align: center;
   }
@@ -446,9 +452,6 @@ margin-left: 10px;
   }
 
   .social-media-icons {
-    display: inline;
-    margin: auto;
-    text-align: center;
   }
 
   .media-icon {
@@ -462,7 +465,4 @@ margin-left: 10px;
     transition: 0.2s ease-in-out;
   }
 
-  .media-icon a {
-
-  }
 }
