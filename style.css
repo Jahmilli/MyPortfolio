@@ -1,4 +1,75 @@
 
+
+@keyframes fadein {
+  from {
+        opacity: 0;
+         transform: translateY(-100%);
+       }
+  to   {
+         opacity: 1;
+         transform: translateY(0);
+        }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from {
+        opacity: 0;
+         transform: translateY(-100%);
+       }
+  to   {
+         opacity: 1;
+         transform: translateY(0);
+        }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+        opacity: 0;
+         transform: translateY(-100%);
+       }
+  to   {
+         opacity: 1;
+         transform: translateY(0);
+        }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from {
+        opacity: 0;
+         transform: translateY(-100%);
+       }
+  to   {
+         opacity: 1;
+         transform: translateY(0);
+        }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from {
+        opacity: 0;
+         transform: translateY(-100%);
+       }
+  to   {
+         opacity: 1;
+         transform: translateY(0);
+        }
+}
+
+@keyframes fromLeft {
+  from {
+         opacity: 0;
+         transform: translateX(-100%);
+       }
+  to   {
+         opacity: 1;
+         transform: translateX(0);
+        }
+}
+
 body  {
   background-color: #eee;
   margin: 0px;
@@ -53,6 +124,13 @@ header {
   color: white;
   letter-spacing: 0.05em;
   margin-bottom: 20px;
+  -webkit-animation: fadein 4s;
+       -moz-animation: fadein 2s;
+        -ms-animation: fadein 2s;
+         -o-animation: fadein 2s;
+            animation: fadein 2s;
+
+
 }
 
 .title  {
@@ -84,6 +162,15 @@ header {
   display: block;
   margin-bottom: 40px;
   text-transform: uppercase;
+  -webkit-transition-delay: 8s;
+    transition-delay: 8s;
+  -webkit-animation: fromLeft 4s ease-in;
+       -moz-animation: fromLeft 4s;
+        -ms-animation: fromLeft 4s;
+         -o-animation: fromLeft 4s;
+            animation: fromLeft 4s;
+
+
 }
 
 .social-media-icons {
