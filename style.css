@@ -174,7 +174,6 @@ header {
 }
 
 .social-media-icons {
-  width: 500px;
   text-align: center;
   display: block;
   margin: auto;
@@ -189,7 +188,6 @@ header {
   border-radius: 50%;
   transition: 0.2s ease-in-out;
   margin: 0 10px;
-
 }
 
 .media-icon:hover  {
@@ -403,20 +401,20 @@ footer  {
 }
 
 #footer-lockup  {
-padding: 20px 0px 0px 20px;
+  padding: 20px 0px 0px 20px;
 
 }
 
 #navigation-footer  {
-text-align: center;
+  text-align: center;
 }
 
 #navigation-footer a  {
-color: white;
-margin-left: auto;
-text-decoration: none;
-font-size: 20px;
-margin-left: 10px;
+  color: white;
+  margin-left: auto;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 10px;
 }
 
 #navigation-footer a:hover  {
@@ -450,7 +448,7 @@ margin-left: 10px;
   }
 
   #nav-header a {
-    font-size: 15px;
+    font-size: 12px;
   }
   .header-title h1 {
     font-size: 40px;
@@ -469,20 +467,15 @@ margin-left: 10px;
   }
 
   .media-icon {
-    height: 60px;
-    width: 60px;
     fill: rgba(255, 255, 255, 1);
-    background-color: rgba(0,0,0,0.7);
-    border-radius: 50%;
-    transition: 0.2s ease-in-out;
   }
 
   #about-right-lockup p {
     margin: 0px 10px;
   }
 
-  .portfolio-display-image img{
-    width: 300px;
+  .portfolio-display-image {
+    width: 75%;
     height: 150px;
     margin: 20px 20px;
   }
@@ -521,9 +514,8 @@ margin-left: 10px;
 
 @media screen and (max-width: 397px) {
   .navbar-lockup  {
-    background-color: rgba(0,0,0,0.4);
     margin: 0px;
-    text-align: center;
+
   }
 
   .ss-icon {
@@ -535,21 +527,28 @@ margin-left: 10px;
   }
 
   #nav-header a {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .social-media-icons {
+    margin: 0px;
   }
 
   .media-icon {
     text-align: center;
-    height: 60px;
-    width: 60px;
-    fill: rgba(255, 255, 255, 1);
-    background-color: rgba(0,0,0,0.7);
-    padding: 10px;
-    border-radius: 50%;
-    transition: 0.2s ease-in-out;
+    height: 50px;
+    width: 50px;
   }
+
+
+  .portfolio-display-image {
+    width: 75%;
+  }
+
+  #navigation-footer a  {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+
 
 }
