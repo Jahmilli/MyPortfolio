@@ -333,17 +333,15 @@ section #about  {
 #portfolio {
   display: inline-block;
   width: 100%;
-  height: 1000px;
   text-align: center;
 }
 
 .portfolio-pictures-lockup {
   width: 100%;
-  height: 800px;
 }
 
-.portfolio-display-image {
-  width: 500px;
+.portfolio-project-lockup {
+  width: 100%;
   height: 300px;
   margin: 20px 20px;
   background-position: center;
@@ -351,12 +349,34 @@ section #about  {
   display: inline-block;
 }
 
+.portfolio-image {
+  height: 350px;
+  width: 25%;
+  margin: 20px;
+  display: inline-block;
+  background-size: cover;
+  background-position: center;
+}
+
+.portfolio-project-text {
+  margin: 0px 50px;
+  text-align: center;
+}
+
 #BushFireAppImg {
   background-image: url("./Images/BushfireApp.png");
 }
 
-#PAASImg {
-  background-image: url("./Images/PAAS_IMG.png");
+#PAAS_Home_Img {
+  background-image: url("./Images/PAAS_UTS.png");
+}
+
+#PAAS_Events_Img {
+  background-image: url("./Images/PAAS_UTS_EVENTS.png");
+}
+
+#PAAS_Contact_Img {
+  background-image: url("./Images/PAAS_UTS_CONTACT.png");
 }
 
 #CanoeImg {
@@ -499,6 +519,10 @@ footer  {
     text-align: center;
   }
 
+  .portfolio-image {
+    width: 75%;
+    height: 50%;
+  }
   #contact {
     height: 500px;
     display: block;
@@ -514,6 +538,8 @@ footer  {
   .contact-details {
     font-size: 30px;
   }
+
+
 }
 
 @media screen and (max-width: 397px) {
@@ -555,7 +581,7 @@ footer  {
   }
 
   .contact-details {
-    font-size: 20px;
+    font-size: 15px;
   }
 
 
